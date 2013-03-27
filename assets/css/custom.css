@@ -1,0 +1,89 @@
+body {
+	padding-top: 20px;
+	padding-bottom: 40px;
+	background: url(http://2.bp.blogspot.com/-iQH3h3k79DU/TZ2SdQ2dyiI/AAAAAAAADvA/OhWVr7tD0q8/s1600/ScattergoriesBox.jpg) top center;
+	font-family: 'Lobster', cursive;
+
+}
+
+/* Custom container */
+.container-narrow {
+	margin: 0 auto;
+	max-width: 900px;
+	padding: 0 40px;
+	background-color: rgba(200,200,200,0.9);
+	border: 10px solid black;
+}
+.container-narrow > hr {
+	margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+	margin: 30px 0;
+	text-align: center;
+}
+.jumbotron h1 {
+	font-size: 86px;
+	line-height: 1;
+	font-family: 'Lobster', cursive;
+}
+
+.jumbotron .btn {
+	font-size: 21px;
+	padding: 14px 24px;
+	font-family: 'Lobster', cursive;
+}
+
+/* Supporting marketing content */
+.marketing {
+	margin: 60px 0;
+}
+.marketing p + h4 {
+	margin-top: 28px;
+}
+#timer, #dice {
+	display: table-cell;
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	font-size: 150px;
+	color: #fff;
+	line-height: 150px;
+	text-shadow: 0 1px 0 #666;
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: none;
+	box-shadow: 1px 1px 2px #000;
+	background: #bd362f;
+	opacity: 0.95
+}
+
+#dice {
+	background: #51a351;
+	border-radius: 25px;
+}
+#categories {
+	background: #eee;
+	padding: 25px;
+	font-family: Helvetica, sans-serif;
+	font-size: 20px;
+	height: 100%;
+}
+#categories li {
+	line-height: 1.2;
+}
+#categories ol {
+	color: #999;
+	font: italic 1em Georgia;
+}
+#categories ol p {
+	font-style: normal;
+	font-family: Verdana, sans-serif;
+	font-size: 25px;
+	color: #000;
+}
+.ready {
+	font-size: 80px;
+	padding: 25px 0px;
+}
